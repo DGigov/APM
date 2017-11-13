@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o",
+    "start": "ng serve -p 8080 -H 0.0.0.0 --public-host https://gigov-project-dgigov.c9users.io/",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint --type-check",
